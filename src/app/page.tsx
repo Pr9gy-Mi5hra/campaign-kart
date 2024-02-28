@@ -25,8 +25,6 @@ async function getData() {
     // Handle unexpected errors
   }
 }
-
-
 export default async function Home() {
   const data: IServices[] = await getData();
   return (
