@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-// import ServicesCard from "./servicesCard";
 // import fetchServices from "@/apiHelper/fetchServices";
 // import { IServices } from "@/types";
 // import { CircularProgress } from "@mui/material";

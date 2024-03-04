@@ -1,5 +1,4 @@
 import React from "react";
-// import Contact from "../Contact";
 
 import {
   BiLogoFacebook,
@@ -10,6 +9,7 @@ import {
 
 
 import Link from "next/link";
+import Contact from "../contact/Contact";
 
 const Footer: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="pt-4 lg:pt-0">
           <Link shallow href="/contact">
-            {/* <Contact /> */}
+            <Contact />
           </Link>
         </div>
       </div>

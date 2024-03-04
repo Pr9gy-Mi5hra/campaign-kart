@@ -68,7 +68,7 @@ const Team = () => {
                         <img loading = "lazy" alt="team member 1" className="lg:w-[80%] p-6 lg:p-0 rounded-full" src="/assets/images/teamMember1.png"/>
                       </div>
                       <div className="px-2  py-4">
-                        <p className="text-md font-semibold">Pranav Kumar</p>
+                        <p className="text-md font-semibold">Anubhav Pandey</p>
                         <p className="text-[10px] pt-2 font-medium text-brand_text">CMO and Founder.</p>
                       </div>
                    </div>
@@ -79,7 +79,7 @@ const Team = () => {
                         <img loading = "lazy" alt="team member 2" className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember2.png"/>
                       </div>
                       <div className="px-2 py-4">
-                        <p className="text-md font-semibold">Shivanand Kumar</p>
+                        <p className="text-md font-semibold">Ansh Pandey</p>
                         <p className="text-[10px] pt-2 text-brand_text font-medium">CTO and Co-Founder.</p>
                       </div>
                    </div>
@@ -90,7 +90,7 @@ const Team = () => {
                         <img loading = "lazy" alt="team member 3" className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember3.png"/>
                       </div>
                       <div className="px-2 py-4">
-                        <p className="text-md font-semibold">Ashutosh Kumar</p>
+                        <p className="text-md font-semibold">Panda</p>
                         <p className="text-[10px] pt-2 text-brand_text font-medium">Strategist & Campaign Manager.</p>
                       </div>
                    </div>
@@ -101,7 +101,7 @@ const Team = () => {
                         <img loading = "lazy" alt="team member 4" className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember4.png"/>
                       </div>
                       <div className="px-2 py-4">
-                        <p className="text-md font-semibold">Khushi Kumari</p>
+                        <p className="text-md font-semibold">Bittu Mishra</p>
                         <p className="text-[10px] pt-2 text-brand_text font-medium">PPC Expert Social Media Specialist. </p>
                       </div>
                    </div>

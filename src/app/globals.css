@@ -2,6 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "ReadexPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/ReadexProRegular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ReadexPro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/ReadexProBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ReadexPro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/ReadexProMedium.ttf")
+    format("truetype");
+}
+
+
+@font-face {
+  font-family: "ReadexPro";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/assets/fonts/ReadexProSemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ReadexPro";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/assets/fonts/ReadexProLight.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ReadexPro";
+  font-style: normal;
+  font-weight: 200;
+  src: url("/assets/fonts/ReadexProExtraLight.ttf")
+    format("truetype");
+}
+
+
+*{
+  font-family: 'ReadexPro',sans-serif;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,18 +71,87 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.wrapper {
+  position: relative;
+  width: 600px;
+  height: 70px;
+  overflow: hidden;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.slanted-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: black 2px;
+  background-color: #2563eb;
+  clip-path: polygon(0 0, 100% 0, 92% 100%, 0% 100%);
+  z-index: 1;
+}
+
+.slanted-div::before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  z-index: -1;
+}
+
+.buttonShadow{
+  box-shadow: 5px 4px 1px 1px rgb(37,99,235,0.5);
+}
+
+
+.buttonShadow:hover {
+  box-shadow: none;
+}
+
+.benefitBg{
+  background-image: url('../../public/assets/images/benefits..png');
+  background-size: cover;
+}
+
+.contactBg{
+  background-image: url('../../public/assets/images/contact.png');
+  background-size: cover;
+}
+
+
+.cardShadow{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.teamCardShadow{
+box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.06);
+}
+
+.servicesCardShadow{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.active-class{
+  color: #2563eb;
+}
+
+/* styles.css or your global stylesheet */
+strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.intl-tel-input .form-control {
+  width: 100% !important;
+   /* Adjust as needed */
+}
+
+.intl-tel-input {
+  width: 100% !important;
+}
+
+.services-svg svg{
+  max-width: 90px;
+  max-height: 90px;
 }

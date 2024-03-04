@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import { usePathname } from "next/navigation";
-// import Breadcrumbs from "@/components/Breadcrumbs";
+import Breadcrumbs from "@/components/breadCrumbs/BreadCrumbs";
 const page = () => {
   return (
     <div id="#about">
       <div className="h-[20vh] bg-brand_bggray pt-16 text-center ">
         <div className="text-[11px] uppercase">
-          {/* <Breadcrumbs /> */}
+          <Breadcrumbs />
         </div>
         <p className="text-3xl pt-4 font-bold">About Us</p>
       </div>
